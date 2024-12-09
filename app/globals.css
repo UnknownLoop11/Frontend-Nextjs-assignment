@@ -17,5 +17,15 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+@media only screeen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 32px;
+  }
 }
