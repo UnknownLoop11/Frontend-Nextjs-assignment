@@ -32,7 +32,7 @@ const SimilarProducts = () => {
     <div className="mt-8 md:relative w-full px-2 md:px-8 space-y-3 bg-opacity-60 bg-gray-50">
       {/* Title */}
       <div className="flex justify-between items-baseline">
-        <h2 className="text-xl md:text-2xl font-semibold">
+        <h2 className="text-xl md:text-2xl font-semibold font-title">
           Articles similaires
         </h2>
         <Link href={"#"} className="uppercase underline text-xs md:text-sm">

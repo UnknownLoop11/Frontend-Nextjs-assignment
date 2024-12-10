@@ -5,8 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
+      fontFamily: {
+        secondary: ["Geist", "sans-serif"],
+        title: ["Cabinet Grotesk", "sans-serif"],
+        sans: ["Post Grotesk", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

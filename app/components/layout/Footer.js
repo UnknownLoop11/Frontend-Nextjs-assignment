@@ -60,7 +60,7 @@ const Footer = () => {
               <ul className="list-none space-y-2">
                 {quickLinks[key].map((link, idx) => {
                   return (
-                    <li key={idx} className="text-sm">
+                    <li key={idx} className="text-sm font-secondary">
                       <Link href={"#"}>{link}</Link>
                     </li>
                   );

@@ -12,7 +12,7 @@ import {
   SignUpBanner,
 } from "./components";
 
-const Home = () => {
+const ProductHome = () => {
   return (
     <>
       <Header />
@@ -27,4 +27,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default ProductHome;

@@ -10,7 +10,7 @@ const Tab = ({ title, isActive = false, onClick }) => {
 
   return (
     <div
-      className={`cursor-pointer uppercase flex-shrink-0 text-sm p-2 border-b-2 border-gray-100 ${
+      className={`cursor-pointer uppercase font-sans flex-shrink-0 text-sm p-2 border-b-2 border-gray-100 ${
         isActive ? "text-primary font-semibold border-primary" : "no-underline"
       }`}
       onClick={handleClick}

@@ -32,7 +32,7 @@ const PersonalizedProducts = () => {
     <div className="md:relative w-full px-2 md:px-8 space-y-3 mt-8">
       {/* Title */}
       <div className="flex justify-between items-baseline">
-        <h2 className="max-sm:w-3/5 text-xl md:text-2xl font-semibold">
+        <h2 className="max-sm:w-3/5 text-xl md:text-2xl font-semibold font-title">
           Ces produits pourraient vous intéresser
         </h2>
         <Link href={"#"} className="uppercase underline text-xs md:text-sm">

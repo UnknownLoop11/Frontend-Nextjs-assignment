@@ -50,7 +50,7 @@ const SignUpBanner = () => {
             style={{ backgroundColor: "rgba(255, 243, 249, 1)" }}
             className="p-6 flex flex-col gap-y-4 justify-evenly rounded-xl text-start shadow-md"
           >
-            <h3 className="text-4xl">
+            <h3 className="text-4xl font-title">
               S{"'"}inscrire & économiser
               <span className="text-secondary contrast-125"> 10%</span>
             </h3>
