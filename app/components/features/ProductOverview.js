@@ -116,12 +116,12 @@ const ProductOverview = () => {
         </div>
 
         {/* Learn More */}
-        <div className=" basis-1/2  text-base uppercase">
-          <div className="p-2 flex justify-between items-center bg-gray-100">
+        <div className="max-sm:w-80 basis-1/2 text-base uppercase">
+          <div className=" p-2 flex justify-between items-center bg-gray-100">
             <p className="font-semibold ">Livraisons</p>
             <span className="text-2xl">+</span>
           </div>
-          <div className="p-2 flex justify-between items-center bg-gray-100">
+          <div className=" p-2 flex justify-between items-center bg-gray-100">
             <p className="font-semibold ">Questions</p>
             <span className="text-2xl">+</span>
           </div>

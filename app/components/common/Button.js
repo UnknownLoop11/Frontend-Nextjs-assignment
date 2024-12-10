@@ -13,11 +13,11 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex flex-row gap-x-1 items-center py-3 px-4 text-xs font-sembold text-white rounded-md contrast-150 hover:opacity-75 ${className}`}
+      className={`flex flex-row gap-x-1.5 items-center py-3 px-4 text-xs font-sembold text-white rounded-md contrast-150 hover:opacity-75 ${className}`}
       style={{ backgroundColor: bgColor }}
     >
       {startIcon}
-      <span className="mx-auto">{title}</span>
+      <span className="md:mx-auto">{title}</span>
       {endIcon}
     </button>
   );
