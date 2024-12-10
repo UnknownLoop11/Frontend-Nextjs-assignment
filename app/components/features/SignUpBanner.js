@@ -20,7 +20,8 @@ const SignUpBanner = () => {
         {/* Heading */}
         <div className="space-y-3">
           <h2 className="text-4xl">
-            On s’occupe de <span className="text-secondary">tout</span>
+            On s’occupe de{" "}
+            <span className="text-secondary contrast-125">tout</span>
           </h2>
           <p className="text-sm font-light">
             Office ipsum you must be muted. It meeting commitment busy pain.
@@ -51,7 +52,7 @@ const SignUpBanner = () => {
           >
             <h3 className="text-4xl">
               S{"'"}inscrire & économiser
-              <span className="text-secondary">10%</span>
+              <span className="text-secondary contrast-125"> 10%</span>
             </h3>
             <p className="text-xs md:text-sm font-light">
               Office ipsum you must be muted. Synergize helicopter prioritize

@@ -25,7 +25,7 @@ let products = [];
 
 // Similar Products List (sample data)
 for (let i = 0; i < 20; i++) {
-  products.push(<ProductCard key={i} width={260} height={400} />);
+  products.push(<ProductCard key={i} width={280} height={420} />);
 }
 export const similarProducts = products;
 
@@ -58,4 +58,12 @@ export const socialMediaLinks = [
   { src: "/icons/twitter.svg", alt: "twitter" },
   { src: "/icons/instagram.svg", alt: "Instagram" },
   { src: "/icons/linkedin.svg", alt: "Linkedin" },
+];
+
+// Search Suggestions Sample Products data
+export const searchSuggestions = [
+  { name: "Produit Simple", price: 7, img: "/product-placeholder.png" },
+  { name: "Produit Gamme", price: "2,20", img: "/product.png" },
+  { name: "Jewel Grand Couteau", price: 7, img: "/product-placeholder.png" },
+  { name: "Piranha Fourchette à Zakouski", price: "2,20", img: "/product.png" },
 ];
