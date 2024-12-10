@@ -15,6 +15,7 @@ const ImagesContainer = ({ imgList }) => {
         {imgList.map((img, idx) => (
           <div key={idx}>
             <Image
+              loading="lazy"
               src={img}
               alt="product image"
               width={48}
@@ -35,6 +36,7 @@ const ImagesContainer = ({ imgList }) => {
         width={680}
         height={600}
         className="rounded-md"
+        priority
       />
     </div>
   );

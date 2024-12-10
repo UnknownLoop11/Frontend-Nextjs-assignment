@@ -41,7 +41,7 @@ const SignUpBanner = () => {
           <Image
             src={"/image.png"}
             alt="image"
-            width={720}
+            width={700}
             height={300}
             className="rounded-xl max-sm:aspect-video"
           />

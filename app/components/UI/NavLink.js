@@ -8,7 +8,7 @@ const NavLink = ({ icon, title, to = "#", badgeValue }) => {
   return (
     <Link
       href={to}
-      className="flex flex-row gap-x-2 px-1.5 items-center rounded-md hover:bg-gray-100"
+      className="flex flex-row gap-x-2 px-1.5 items-center rounded-md hover:bg-gray-100 contrast-150"
     >
       {icon}
       <span className="text-xs font-semibold">{title}</span>

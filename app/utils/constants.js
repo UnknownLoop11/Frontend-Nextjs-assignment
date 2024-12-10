@@ -21,23 +21,22 @@ export const productImages = [
 ];
 
 import ProductCard from "../components/UI/ProductCard";
-
 let products = [];
 
-// Similar Products List
+// Similar Products List (sample data)
 for (let i = 0; i < 20; i++) {
   products.push(<ProductCard key={i} width={260} height={400} />);
 }
 export const similarProducts = products;
 
-// Personalized Products List
+// Personalized Products List (sample data)
 products = [];
 for (let i = 0; i < 20; i++) {
   products.push(<ProductCard key={i} width={380} height={520} />);
 }
 export const personalizedProducts = products;
 
-// Quick Links
+// Quick Links {Category: [Links]}
 export const quickLinks = {
   "INFOS PRATIQUES": [
     "À propos",

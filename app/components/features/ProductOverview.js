@@ -118,11 +118,11 @@ const ProductOverview = () => {
         {/* Learn More */}
         <div className="w-full md:basis-1/2 md:ml-auto text-base uppercase">
           <div className="p-2 flex justify-between items-center bg-gray-100">
-            <h4 className="font-semibold ">Livraisons</h4>
+            <p className="font-semibold ">Livraisons</p>
             <span className="text-2xl">+</span>
           </div>
           <div className="p-2 flex justify-between items-center bg-gray-100">
-            <h4 className="font-semibold ">Questions</h4>
+            <p className="font-semibold ">Questions</p>
             <span className="text-2xl">+</span>
           </div>
         </div>

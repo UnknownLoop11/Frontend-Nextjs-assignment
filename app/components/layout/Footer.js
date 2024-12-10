@@ -55,9 +55,9 @@ const Footer = () => {
         {/* Quick Links */}
         {Object.keys(quickLinks).map((key, idx) => {
           return (
-            <div key={idx} className="space-y-2 p-2 text-start">
+            <div key={idx} className="space-y-3 p-2 text-start">
               <h4 className="text-lg font-semibold">{key}</h4>
-              <ul className="list-none">
+              <ul className="list-none space-y-2">
                 {quickLinks[key].map((link, idx) => {
                   return (
                     <li key={idx} className="text-sm">

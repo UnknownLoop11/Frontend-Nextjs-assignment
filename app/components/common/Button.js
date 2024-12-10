@@ -13,7 +13,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`flex flex-row gap-x-1 items-center py-3 px-4 text-xs font-semibold text-white rounded-md hover:opacity-75 ${className}`}
+      className={`flex flex-row gap-x-1 items-center py-3 px-4 text-xs font-sembold text-white rounded-md contrast-200 hover:opacity-75 ${className}`}
       style={{ backgroundColor: bgColor }}
     >
       {startIcon}
