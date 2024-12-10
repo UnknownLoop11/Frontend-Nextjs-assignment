@@ -97,9 +97,9 @@ const ProductOverview = () => {
       </div>
 
       {/* Product Description and Learn More */}
-      <div className="mt-4 p-2 md:px-6 flex flex-col md:flex-row gap-y-6 items-center">
+      <div className="mt-4 p-2 md:px-14 w-full flex flex-col md:flex-row gap-y-6 md:gap-x-12 items-center justify-between">
         {/* Product Description */}
-        <div className="basis-2/5 text-sm space-y-2">
+        <div className="basis-1/2 text-sm space-y-2">
           <h2 className="text-xl font-semibold">Description produit</h2>
           <p>
             Festi vous propose à la location un/une &quot;Jewel – grand
@@ -116,7 +116,7 @@ const ProductOverview = () => {
         </div>
 
         {/* Learn More */}
-        <div className="w-full md:basis-1/2 md:ml-auto text-base uppercase">
+        <div className=" basis-1/2  text-base uppercase">
           <div className="p-2 flex justify-between items-center bg-gray-100">
             <p className="font-semibold ">Livraisons</p>
             <span className="text-2xl">+</span>
